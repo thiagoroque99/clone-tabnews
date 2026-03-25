@@ -19,6 +19,7 @@ function Paragrafo3(){
     return <p> O guepardo é o animal terrestre mais rápido, capaz de atingir velocidades impressionantes</p>
 }
 
+
 function Home(){
     return (
         <div>
