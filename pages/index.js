@@ -1,5 +1,12 @@
+import Head from 'next/head';
+
 function Title(){
-    return <title> Meu site</title>
+    return (
+        <Head>
+            <title> Meu site</title>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
+    )
 }
 
 function Titulo(){
