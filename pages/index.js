@@ -32,6 +32,10 @@ function Paragrafo3(){
     return <p> O guepardo é o animal terrestre mais rápido, capaz de atingir velocidades impressionantes</p>
 }
 
+function Paragrafo4(){
+    return <p> Gabs Homessexual</p>
+}
+
 
 // Função principal que compõe todos os componentes da página
 function Index(){
@@ -42,6 +46,7 @@ function Index(){
             <Paragrafo />
             <Paragrafo2 />
             <Paragrafo3 />
+            <Paragrafo4 />
         </div>
     )
 }
