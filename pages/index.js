@@ -20,6 +20,7 @@ function Paragrafo(){
     return <p> O tigre é o maior felino e na caça ele é implacável e feroz</p>
 }
 
+
 // Função que exibe um parágrafo sobre o leão (aceita props como parâmetro)
 function Paragrafo2(props){
     console.log(props)
@@ -33,7 +34,7 @@ function Paragrafo3(){
 
 
 // Função principal que compõe todos os componentes da página
-function Home(){
+function Index(){
     return (
         <div>
             <Title />
@@ -46,4 +47,4 @@ function Home(){
 }
 
 
-export default Home
+export default Index
