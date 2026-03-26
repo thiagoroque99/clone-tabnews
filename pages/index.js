@@ -17,7 +17,7 @@ function Titulo(){
 
 // Função que exibe um parágrafo sobre o tigre
 function Paragrafo(){
-    return <p> O tigre é o maior felino e na caça ele é implacável</p>
+    return <p> O tigre é o maior felino e na caça ele é implacável e feroz</p>
 }
 
 // Função que exibe um parágrafo sobre o leão (aceita props como parâmetro)
