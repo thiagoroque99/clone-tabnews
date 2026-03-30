@@ -21,22 +21,7 @@ function Paragrafo(){
 }
 
 
-// Função que exibe um parágrafo sobre o leão (aceita props como parâmetro)
-function Paragrafo2(props){
-    console.log(props)
-    return <p> O leão é o rei da selva e é conhecido por sua juba majestosa</p>
-}
-
-// Função que exibe um parágrafo sobre o guepardo
-function Paragrafo3(){
-    return <p> O guepardo é o animal terrestre mais rápido, capaz de atingir velocidades impressionantes</p>
-}
-
-function Paragrafo4(){
-    return <p> Gabs Homessexual</p>
-}
-
-
+// teste 1
 // Função principal que compõe todos os componentes da página
 function Index(){
     return (
@@ -44,9 +29,6 @@ function Index(){
             <Title />
             <Titulo />
             <Paragrafo />
-            <Paragrafo2 />
-            <Paragrafo3 />
-            <Paragrafo4 />
         </div>
     )
 }
